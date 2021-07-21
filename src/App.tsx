@@ -35,7 +35,7 @@ const App = () => {
 
   const getTotalItems = () => null;
 
-  const handleAddCart = (clickedItem: CartItemType) => null;
+  const handleAddToCart = (clickedItem: CartItemType) => null;
 
   const handleRemoveFromCart = () => null;
 
@@ -44,7 +44,13 @@ const App = () => {
   
   return (
     <Wrapper>
-      
+      <Grid container spacing={3}>
+        {data?.map(item => (
+          <Grid item key={item.id} xs={12} sm={4}>
+            <Item item={item} handleAddToCart={handleAddToCart} />
+          </Grid>
+        ))}
+      </Grid>
     </Wrapper>
   );
 };
