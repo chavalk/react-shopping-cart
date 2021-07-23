@@ -10,7 +10,7 @@ An application to demonstrate the process of creating a shopping cart using Type
 
 The project is a demonstration of building a shopping cart using TypeScript. The functionality of the application is to display shopping items and allow the user to add items to the cart and interact with them. Below is a GIF of the application in action.
 
-![work-day-scheduler](./images/work-day-scheduler.gif)
+![react-shopping-cart](./src/images/react-shopping-cart.gif)
 
 ## Why is the project useful
 
@@ -20,7 +20,7 @@ The project is a good experience for demonstrating how to create a shopping cart
 
 Simply navigate to the deployed version of the website by following the link below.
 
-https://chavalk.github.io/work-day-scheduler/
+https://chavalk.github.io/react-shopping-cart/
 
 ## What technologies were used with this project
 
